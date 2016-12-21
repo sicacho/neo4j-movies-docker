@@ -8,9 +8,7 @@ import java.util.Collection;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.voodoodyne.jackson.jsog.JSOGGenerator;
 
-@JsonIdentityInfo(generator=JSOGGenerator.class)
 @RelationshipEntity(type = "ACTED_IN")
 public class Role {
     @GraphId

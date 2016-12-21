@@ -6,10 +6,8 @@ import java.util.Collection;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.voodoodyne.jackson.jsog.JSOGGenerator;
 
 //@JsonIdentityInfo(generator=ObjectIdGenerators.PropertyGenerator.class, property="id")
-@JsonIdentityInfo(generator=JSOGGenerator.class)
 // tag::movie[]
 @NodeEntity
 public class Movie {
