@@ -1,0 +1,14 @@
+version: '2'
+services:
+  db:
+    image: neo4j:2.3.6
+    ports:
+     - "7474:7474"
+    volumes:
+    - /root/data:/data
+  web:
+    image: sicacho/movies-docker
+    ports: 
+     - "8080:8080"
+    links:
+     - db
