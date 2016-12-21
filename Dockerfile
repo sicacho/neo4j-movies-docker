@@ -4,7 +4,7 @@ MAINTAINER trustme013@gmail.com
 
 VOLUME /logs
 
-EXPOSE 8090
+EXPOSE 8080
 
 ENV USER_NAME movie
 
